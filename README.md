@@ -299,21 +299,23 @@ BHLoadingView // `ABLoadingView` customized for the Bucket Hunter application
 ## Enums
 
 ```objective-c
+// Rarely useful
 enum {
     Foo,
     Bar
 };
 
-typedef enum {
-    SSLoadingViewStyleLight,
-    SSLoadingViewStyleDark
-} SSLoadingViewStyle;
-
-// Preferred
+// Acceptable but complicated
 typedef NS_ENUM(NSInteger, TQOptionType) {
     TQOptionTypeA = 0,
     TQOptionTypeB = 1,
     TQOptionTypeC = 2,
     TQOptionTypeD = 3
 };
+
+// Preferred
+typedef enum {
+    SSLoadingViewStyleLight,
+    SSLoadingViewStyleDark
+} SSLoadingViewStyle;
 ```
