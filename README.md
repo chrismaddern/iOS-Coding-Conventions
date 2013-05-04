@@ -227,7 +227,7 @@ For example, if a header prefix looks like the following:
 @property (nonatomic, assign, getter=isLoading) BOOL loading;
 ```
 
-If the property is `nonatomic`, it should be first. The next option should **always** be `retain` or `assign` since if it is omitted, there is a warning. `readonly` should be the next option if it is specified. `readwrite` should never be specified in header file. `readwrite` should only be used in class extensions. `getter` or `setter` should be last. `setter` should rarely be used.
+If the property is `nonatomic`, it should be first. The next option should **always** be `retain` or `assign` (or `strong` with ARC) since if it is omitted, there is a warning. `readonly` should be the next option if it is specified. `readwrite` should never be specified in header file. `readwrite` should only be used in class extensions. `getter` or `setter` should be last. `setter` should rarely be used.
 
 See an example of `readwrite` in the *Private Methods* section.
 
