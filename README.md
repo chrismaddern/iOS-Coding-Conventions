@@ -10,6 +10,14 @@ This document is mainly targeted toward iOS development, but definitely applies 
 
 I'd recommend installing the Mac App [Marked](https://itunes.apple.com/us/app/marked/id448925439?mt=12) and setting it up for Github syntax highlighting. See [this post](http://support.markedapp.com/kb/how-to-tips-and-tricks/using-marked-with-github-flavored-markdown-and-syntax-highlighting) for setup in Marked. Then just open this document and any other .md documents in Marked.
 
+## Indenting
+
+Indenting should be performed with spaces (configure your editor to emit spaces when using the tab key). 4 spaces should be used to indent a line.
+
+The `+` or `-` defining the beginning of a method should always be hard-aligned to the left. The contents of the method should be indented by one level (4 spaces). One indent level should be added for each level of control structure within the method.
+
+Comments should be at the same level of indent as the code that they are commenting on.
+
 ## Operators
 
 ```objective-c
