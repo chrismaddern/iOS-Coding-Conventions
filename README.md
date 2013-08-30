@@ -1,6 +1,4 @@
-# Objective-C Coding Convention and Best Practices
-
-This is based off of [Sam Soffes](https://twitter.com/samsoffes)'s convention doc, [here](https://gist.github.com/812796#file-objective-c-coding-convention-and-best-practices-markdown). Many thanks.
+# Objective-C Coding Conventions & Best Practices
 
 Most of these guidelines are to match Apple's documentation and community-accepted best practices. Some are derived some personal preference. This document aims to set a standard way of doing things so everyone can do things the same way. If there is something you are not particularly fond of, it is encouraged to do it anyway to be consistent with everyone else.
 
